@@ -29,8 +29,10 @@
 		D59961A01B759B4B00CC0CB5 /* GestureTool_Private.m in Sources */ = {isa = PBXBuildFile; fileRef = D599618D1B759B4B00CC0CB5 /* GestureTool_Private.m */; };
 		D59961A11B759B4B00CC0CB5 /* GestureTool_Public.m in Sources */ = {isa = PBXBuildFile; fileRef = D599618F1B759B4B00CC0CB5 /* GestureTool_Public.m */; };
 		D59961A21B759B4B00CC0CB5 /* TouchIdUnlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D59961921B759B4B00CC0CB5 /* TouchIdUnlock.m */; };
-		D59961AA1B759B8900CC0CB5 /* libGestureSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D59961A91B759B8900CC0CB5 /* libGestureSDK.h */; };
-		D59961AC1B759B8900CC0CB5 /* libGestureSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = D59961AB1B759B8900CC0CB5 /* libGestureSDK.m */; };
+		D59961E01B76603300CC0CB5 /* GestureIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59961DB1B76603300CC0CB5 /* GestureIntroduceViewController.m */; };
+		D59961E11B76603300CC0CB5 /* GestureSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59961DD1B76603300CC0CB5 /* GestureSettingViewController.m */; };
+		D59961E21B76603300CC0CB5 /* GestureSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59961DF1B76603300CC0CB5 /* GestureSetupViewController.m */; };
+		D59961E51B76625B00CC0CB5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59961E41B76625B00CC0CB5 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,7 +42,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				D59961AA1B759B8900CC0CB5 /* libGestureSDK.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +83,15 @@
 		D59961911B759B4B00CC0CB5 /* TouchIdUnlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIdUnlock.h; sourceTree = "<group>"; };
 		D59961921B759B4B00CC0CB5 /* TouchIdUnlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIdUnlock.m; sourceTree = "<group>"; };
 		D59961A71B759B8900CC0CB5 /* liblibGestureSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibGestureSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D59961A91B759B8900CC0CB5 /* libGestureSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libGestureSDK.h; sourceTree = "<group>"; };
-		D59961AB1B759B8900CC0CB5 /* libGestureSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libGestureSDK.m; sourceTree = "<group>"; };
-		D59961B71B759B8900CC0CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59961DA1B76603300CC0CB5 /* GestureIntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureIntroduceViewController.h; sourceTree = "<group>"; };
+		D59961DB1B76603300CC0CB5 /* GestureIntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureIntroduceViewController.m; sourceTree = "<group>"; };
+		D59961DC1B76603300CC0CB5 /* GestureSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureSettingViewController.h; sourceTree = "<group>"; };
+		D59961DD1B76603300CC0CB5 /* GestureSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureSettingViewController.m; sourceTree = "<group>"; };
+		D59961DE1B76603300CC0CB5 /* GestureSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureSetupViewController.h; sourceTree = "<group>"; };
+		D59961DF1B76603300CC0CB5 /* GestureSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureSetupViewController.m; sourceTree = "<group>"; };
+		D59961E31B76625B00CC0CB5 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D59961E41B76625B00CC0CB5 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D59961E61B7663E000CC0CB5 /* SystemDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +115,12 @@
 		D59961441B7599D000CC0CB5 = {
 			isa = PBXGroup;
 			children = (
+				D59961E61B7663E000CC0CB5 /* SystemDefine.h */,
+				D59961E31B76625B00CC0CB5 /* BaseViewController.h */,
+				D59961E41B76625B00CC0CB5 /* BaseViewController.m */,
+				D59961D91B76603300CC0CB5 /* GestureSetting */,
 				D59961761B759B4B00CC0CB5 /* GesturePwd */,
 				D599614F1B7599D000CC0CB5 /* GestureSDK_Demo */,
-				D59961A81B759B8900CC0CB5 /* libGestureSDK */,
-				D59961B51B759B8900CC0CB5 /* libGestureSDKTests */,
 				D599614E1B7599D000CC0CB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -178,15 +187,15 @@
 		D59961801B759B4B00CC0CB5 /* GestureImages */ = {
 			isa = PBXGroup;
 			children = (
+				D59961851B759B4B00CC0CB5 /* gesture_introduce.png */,
+				D59961861B759B4B00CC0CB5 /* gesture_introduce@2x.png */,
+				D59961871B759B4B00CC0CB5 /* gesture_introduce@3x.png */,
 				D59961881B759B4B00CC0CB5 /* gesture_unlock.png */,
 				D59961891B759B4B00CC0CB5 /* gesture_unlock@2x.png */,
 				D59961811B759B4B00CC0CB5 /* gesture_circle_nor.png */,
 				D59961821B759B4B00CC0CB5 /* gesture_circle_nor@2x.png */,
 				D59961831B759B4B00CC0CB5 /* gesture_circle_pre.png */,
 				D59961841B759B4B00CC0CB5 /* gesture_circle_pre@2x.png */,
-				D59961851B759B4B00CC0CB5 /* gesture_introduce.png */,
-				D59961861B759B4B00CC0CB5 /* gesture_introduce@2x.png */,
-				D59961871B759B4B00CC0CB5 /* gesture_introduce@3x.png */,
 			);
 			path = GestureImages;
 			sourceTree = "<group>";
@@ -212,29 +221,17 @@
 			path = TouchIdClass;
 			sourceTree = "<group>";
 		};
-		D59961A81B759B8900CC0CB5 /* libGestureSDK */ = {
+		D59961D91B76603300CC0CB5 /* GestureSetting */ = {
 			isa = PBXGroup;
 			children = (
-				D59961A91B759B8900CC0CB5 /* libGestureSDK.h */,
-				D59961AB1B759B8900CC0CB5 /* libGestureSDK.m */,
+				D59961DA1B76603300CC0CB5 /* GestureIntroduceViewController.h */,
+				D59961DB1B76603300CC0CB5 /* GestureIntroduceViewController.m */,
+				D59961DC1B76603300CC0CB5 /* GestureSettingViewController.h */,
+				D59961DD1B76603300CC0CB5 /* GestureSettingViewController.m */,
+				D59961DE1B76603300CC0CB5 /* GestureSetupViewController.h */,
+				D59961DF1B76603300CC0CB5 /* GestureSetupViewController.m */,
 			);
-			path = libGestureSDK;
-			sourceTree = "<group>";
-		};
-		D59961B51B759B8900CC0CB5 /* libGestureSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				D59961B61B759B8900CC0CB5 /* Supporting Files */,
-			);
-			path = libGestureSDKTests;
-			sourceTree = "<group>";
-		};
-		D59961B61B759B8900CC0CB5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D59961B71B759B8900CC0CB5 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = GestureSetting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,14 +335,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D59961931B759B4B00CC0CB5 /* DrawPatternLockView.m in Sources */,
+				D59961E11B76603300CC0CB5 /* GestureSettingViewController.m in Sources */,
 				D59961951B759B4B00CC0CB5 /* GestureInternalViews.m in Sources */,
 				D59961591B7599D000CC0CB5 /* ViewController.m in Sources */,
 				D59961961B759B4B00CC0CB5 /* GestureLockScreen.m in Sources */,
+				D59961E51B76625B00CC0CB5 /* BaseViewController.m in Sources */,
 				D59961561B7599D000CC0CB5 /* AppDelegate.m in Sources */,
 				D59961531B7599D000CC0CB5 /* main.m in Sources */,
 				D59961941B759B4B00CC0CB5 /* DrawPatternLockViewController.m in Sources */,
 				D59961A01B759B4B00CC0CB5 /* GestureTool_Private.m in Sources */,
 				D59961A21B759B4B00CC0CB5 /* TouchIdUnlock.m in Sources */,
+				D59961E21B76603300CC0CB5 /* GestureSetupViewController.m in Sources */,
+				D59961E01B76603300CC0CB5 /* GestureIntroduceViewController.m in Sources */,
 				D59961A11B759B4B00CC0CB5 /* GestureTool_Public.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +355,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D59961AC1B759B8900CC0CB5 /* libGestureSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
