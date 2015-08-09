@@ -232,13 +232,13 @@
     
     if (aImage)
     {
-        //        [leftBarButtonItem setBackgroundImage:aImage forState:UIControlStateNormal barMetrics:UIBarMetricsCompactPrompt];
+//        [leftBarButtonItem setBackgroundImage:aImage forState:UIControlStateNormal barMetrics:UIBarMetricsCompactPrompt];
         [leftBarButtonItem setImage:aImage];
     }
     
     if (hImage)
     {
-        //        [leftBarButtonItem setBackgroundImage:hImage forState:UIControlStateHighlighted barMetrics:UIBarMetricsCompactPrompt];
+//        [leftBarButtonItem setBackgroundImage:hImage forState:UIControlStateHighlighted barMetrics:UIBarMetricsCompactPrompt];
     }
     
     

@@ -20,6 +20,8 @@
  *  @param aImage
  *  @param hImage
  */
-- (void)showCustomNavigationLeftButtonWithTitle:(NSString *)aTitle image:(UIImage *)aImage hightlightImage:(UIImage *)hImage;
+- (void)showCustomNavigationLeftButtonWithTitle:(NSString *)aTitle
+                                          image:(UIImage *)aImage
+                                hightlightImage:(UIImage *)hImage;
 
 @end

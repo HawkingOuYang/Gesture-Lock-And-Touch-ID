@@ -20,21 +20,21 @@
  用户是否 想使用手势锁屏，这个配置，保存在NSUserDefaults。
  */
 #ifndef KEY_UserDefaults_isGestureLockEnabledOrNotByUser
-#define KEY_UserDefaults_isGestureLockEnabledOrNotByUser @"KEY_UserDefaults_isGestureLockEnabledOrNotByUser"
+    #define KEY_UserDefaults_isGestureLockEnabledOrNotByUser @"KEY_UserDefaults_isGestureLockEnabledOrNotByUser"
 #endif
 
 /**
  显示手势轨迹
  */
 #ifndef KEY_UserDefaults_isShowGestureTrace
-#define KEY_UserDefaults_isShowGestureTrace              @"KEY_UserDefaults_isShowGestureTrace"
+    #define KEY_UserDefaults_isShowGestureTrace              @"KEY_UserDefaults_isShowGestureTrace"
 #endif
 
 /**
  用户是否 想使用touchID解锁，这个配置，保存在NSUserDefaults。
  */
 #ifndef KEY_UserDefaults_isTouchIdEnabledOrNotByUser
-#define KEY_UserDefaults_isTouchIdEnabledOrNotByUser     @"KEY_UserDefaults_isTouchIdEnabledOrNotByUser"
+    #define KEY_UserDefaults_isTouchIdEnabledOrNotByUser     @"KEY_UserDefaults_isTouchIdEnabledOrNotByUser"
 #endif
 
 
