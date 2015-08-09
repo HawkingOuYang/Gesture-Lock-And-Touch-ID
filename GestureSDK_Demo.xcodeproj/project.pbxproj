@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51E34501B77041100285A3C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D51E344F1B77041100285A3C /* icon.png */; };
 		D59961531B7599D000CC0CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D59961521B7599D000CC0CB5 /* main.m */; };
 		D59961561B7599D000CC0CB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D59961551B7599D000CC0CB5 /* AppDelegate.m */; };
 		D59961591B7599D000CC0CB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59961581B7599D000CC0CB5 /* ViewController.m */; };
@@ -48,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D51E344F1B77041100285A3C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		D599614D1B7599D000CC0CB5 /* GestureSDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureSDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59961511B7599D000CC0CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D59961521B7599D000CC0CB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		D59961441B7599D000CC0CB5 = {
 			isa = PBXGroup;
 			children = (
+				D51E344F1B77041100285A3C /* icon.png */,
 				D59961E61B7663E000CC0CB5 /* SystemDefine.h */,
 				D59961E31B76625B00CC0CB5 /* BaseViewController.h */,
 				D59961E41B76625B00CC0CB5 /* BaseViewController.m */,
@@ -312,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D51E34501B77041100285A3C /* icon.png in Resources */,
 				D599619F1B759B4B00CC0CB5 /* gesture_unlock@2x.png in Resources */,
 				D599615C1B7599D000CC0CB5 /* Main.storyboard in Resources */,
 				D59961991B759B4B00CC0CB5 /* gesture_circle_pre.png in Resources */,
@@ -539,6 +543,7 @@
 				D59961BA1B759B8A00CC0CB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

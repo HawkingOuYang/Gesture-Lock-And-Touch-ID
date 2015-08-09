@@ -32,10 +32,12 @@
     _gestureWindow.windowLevel = UIWindowLevelStatusBar;
     _gestureWindow.hidden = NO;
     
-    [_gestureWindow.rootViewController presentViewController:_gestureViewCtl
-                                                    animated:NO
-                                                  completion:^{
-    }];
+    if (!_gestureViewCtl.presentingViewController) {
+        [_gestureWindow.rootViewController presentViewController:_gestureViewCtl
+                                                        animated:NO
+                                                    completion:^{
+                                                  }];
+    }
     
     
     /*
