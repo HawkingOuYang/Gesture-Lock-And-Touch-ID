@@ -1,5 +1,5 @@
-# GestureLockScreen_Like_QQ-And-Touch-ID
-GestureLockScreen like QQ And Touch ID，高仿QQ手势锁屏，指纹解锁。
+# Gesture Lock Screen Like QQ  And Touch ID
+Gesture Lock Screen like QQ And Touch ID，高仿QQ手势锁屏，指纹解锁。
 
 备注：
 指纹解锁 需要满足条件：
